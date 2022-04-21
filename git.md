@@ -12,11 +12,17 @@ git add *.txt
 
 git commmit -m "Mensaje de commit"
 
-Ver archivos en staging area: git ls-files
+Ver archivos en staging area: 
+
+git ls-files
 
 Remover archivos de working dir y de staging area de manera simultánea: 
 
 git rm filet.txt *.txt
+
+Remover archivo únicamente del staging area no del work directory
+
+git rm --cache -r bin/
 
 Renombrar archivos
 
