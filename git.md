@@ -34,7 +34,5 @@ Renombrar archivos
 git mv main.js file.js
 ### Agregango repositorio github
 
-
-
 #### git diff
 git diff --staged
