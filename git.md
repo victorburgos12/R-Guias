@@ -9,7 +9,7 @@ En windows: git config --global core.autocrlf true
 
 En Linux: git config --global core.autocrlf input
 
-### Usando Git
+## Usando Git
 git status
 git status -s
 
@@ -32,6 +32,9 @@ git rm --cache -r bin/
 Renombrar archivos
 
 git mv main.js file.js
+### Agregango repositorio github
+
+
 
 #### git diff
 git diff --staged
