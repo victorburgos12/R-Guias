@@ -7,6 +7,7 @@ En Linux: git config --global core.autocrlf input
 
 ### Usando Git
 git status
+git status -s
 
 git add *.txt
 
@@ -27,3 +28,6 @@ git rm --cache -r bin/
 Renombrar archivos
 
 git mv main.js file.js
+
+#### git diff
+git diff --staged
