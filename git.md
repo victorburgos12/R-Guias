@@ -10,7 +10,14 @@ En windows: git config --global core.autocrlf true
 En Linux: git config --global core.autocrlf input
 
 ## Usando Git
+
+git clone
+
+Muestra el endpoint de fecth y de push
+* git remote -v
+
 git status
+
 git status -s
 
 git add *.txt
