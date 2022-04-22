@@ -17,3 +17,8 @@ helm list
 Para remover un Helm chart de deployment:
 
 helm delete <release-name>--purge
+
+# Debugging
+
+## DNS
+https://kubernetes.io/docs/tasks/administer-cluster/dns-debugging-resolution/
