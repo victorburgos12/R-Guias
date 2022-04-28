@@ -24,6 +24,8 @@ git add *.txt
 
 git commmit -m "Mensaje de commit"
 
+git commit -am "Mensaje de commit"
+
 Ver archivos en staging area: 
 
 git ls-files

@@ -47,7 +47,7 @@ Escalar deployment
 Crear un servicio desde command line. Si no se especifica el --type, por defecto se usa ClusterIP
 * kubectl expose deployment hello-world --port=8080 --target-port=8080 --type=ClusterIP
 
-Crear un servicio tipo NodePort, este por defecto es accesible desde las ips de los nodos en puertos 30001 en adelante.
+Crear un servicio tipo NodePort, este por defecto es accesible desde las ips de los nodos en puertos 30000 a 32767.
 * kubectl expose deployment hello-world --port=8080 --target-port=8080 --type=NodePort
 
 Crear servicio en infraestructura cloud usando load balancer
